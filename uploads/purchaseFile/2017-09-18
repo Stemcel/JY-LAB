@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+<<<<<<< .mine
+	
+	<qwer>5ca64d67fc621eaabbee58688347f9a701bcb2c3d76e71d314f4630421fe1964</qwer>
+	<asdf>808bf76dd3c79c5bb61b2aa3eacfeac1</asdf>
+
+||||||| .r109
+	
+	<qwer></qwer>
+	<asdf></asdf>
+
+=======
+	<qwer>c461472a2dbd29045ffaff2aad20438425cc7131db68b6955bc5edf07d843dc4</qwer>
+	<asdf>601f914623957fb95c5901d82e7587d0</asdf>
+	<zxcv>976990983d3fbf185430aec89154beb9</zxcv>
+>>>>>>> .r112
+</xml>

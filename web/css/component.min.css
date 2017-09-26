@@ -1,0 +1,18 @@
+.form-group.form-md-line-input .form-control {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: -moz-use-text-color -moz-use-text-color #c2cad8;
+    border-image: none;
+    border-radius: 0;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    color: #4d6b8a;
+    font-size: 16px;
+    padding-left: 0;
+    padding-right: 0;
+}
+input{display: inline-block !important;}

@@ -1,0 +1,393 @@
+/** 覆盖beyond的样式 */
+.body {
+    /*font-family: '宋体', 'Times New Roman', 'Microsoft YaHei', SimHei;*/
+    font-size: 14px;
+    background: white;
+}
+
+footer.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    background-color: #fff;
+}
+
+footer.footer p {
+    line-height: 40px;
+    margin: 0;
+}
+
+.main-container {
+    margin-bottom: 25px;
+}
+
+.nav-bar-right {
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+.nav-bar-right .user-info {
+    display: inline-block;
+    padding: 12px 10px;
+    color: #fff;
+}
+
+.nav-bar-right .log-out {
+    display: inline-block;
+    padding: 12px 10px;
+}
+
+.nav-bar-right .log-out a {
+    color: #fff;
+}
+
+.nav-bar-right .log-out a:hover {
+    text-decoration: none;
+}
+
+.nav-bar-right .user-level-btn {
+    display: inline-block;
+    padding: 11px 8px;
+}
+
+.nav-bar-right .user-level-btn button {
+    color: #fff;
+    border-bottom: none;
+    outline: none;
+}
+
+.my_hide {
+    display: none;
+}
+
+.checkbox-slider-label {
+    cursor: pointer;
+}
+
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e155";
+}
+
+a.desc:after {
+    content: "\e156";
+}
+
+table thead {
+    border-bottom: 2px solid #2dc3e8;
+}
+
+.page-breadcrumbs {
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+/* 返回顶部样式 */
+.actGoTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+.actGoTop a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 46px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #2dc3e8;
+    font-size: 30px;
+    color: #FFF;
+}
+
+.actGoTop a:hover {
+    opacity: 0.8;
+}
+
+.sidebar-collapse#sidebar-return {
+    left: 224px;
+    width: 60px;
+    padding-right: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.sidebar-collapse#sidebar-return .collapse-icon{
+    font-size: 16px;
+}
+
+/** login */
+.login-container .loginbox {
+    height: auto !important;
+    padding-bottom: 20px;
+}
+
+.loginbox-title {
+    margin-bottom: 10px;
+}
+
+.login-container .form-group {
+    margin-bottom: 0;
+}
+
+.login-container {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.login-container .login-content {
+    margin: 10% auto;
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+}
+
+.login-container .loginImg {
+  /*  background: url("../images/login-image.jpg") no-repeat; */
+    width: 597px;
+    height: 400px;
+}
+
+.login-container .loginbox {
+    margin-top: 50px;
+}
+
+.login-container .loginbox .loginbox-textbox {
+    padding-bottom: 0;
+}
+
+.login-container .loginbox .loginbox-forgot {
+    padding-left: 20px;
+}
+
+/** 练习页面 */
+input[type="text"].input-short {
+    border: 0;
+    border-bottom: 1px solid #d5d5d5;
+    width: 50px;
+}
+
+input[type="text"].input-middle {
+    border: 0;
+    border-bottom: 1px solid #d5d5d5;
+    width: 200px;
+}
+
+input[type="text"].input-long {
+    border: 0;
+    border-bottom: 1px solid #d5d5d5;
+    width: 500px;
+}
+
+select.select-short {
+    display: inline-block;
+    border: 0;
+    border-bottom: 1px solid #d5d5d5;
+    width: 50px;
+    padding: 0 3px;
+    height: 25px;
+}
+
+select.select-middle {
+    display: inline-block;
+    border: 0;
+    border-bottom: 1px solid #d5d5d5;
+    width: 200px;
+    padding: 0 3px;
+    height: 25px;
+}
+
+.top-panel .sub-span {
+    color: #aeaeae;
+    padding: 3px 5px;
+    font-size: 12px;
+}
+
+.practice-content p {
+    line-height: 24px;
+}
+
+.practice-content .pointer {
+    cursor: pointer;
+}
+
+.practice-content mark {
+    background-color: #FF4500;
+    color: #fff;
+}
+
+.has-image img {
+    max-width: 100%;
+}
+
+.text-area-help-container .checkbox {
+    margin: 0;
+}
+
+.extend-body {
+    border: 1px solid #eee;
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.extend-checkbox {
+    margin-right: 25px;
+}
+
+.extend-checkbox .checkbox {
+    display: inline-block;
+}
+
+.key-word.display {
+    display: inline;
+    border-radius: 4px;
+    padding: 2px 5px;
+    cursor: pointer;
+    background-color: #427fed;
+    color: #fff;
+}
+
+.key-sentence.display {
+    display: inline;
+    border-radius: 4px;
+    padding: 2px 5px;
+    cursor: pointer;
+    background-color: #00aa00;
+    color: #fff;
+}
+
+.question-relevant.display {
+    display: inline;
+    border-radius: 4px;
+    padding: 2px 5px;
+    cursor: pointer;
+    background-color: #ffa500;
+    color: #fff;
+}
+
+.writing-model.display {
+    display: inline;
+    font-weight: bold;
+}
+
+.spell-error{
+    display: inline;
+    border-radius: 4px;
+    padding: 2px 5px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .extend-modal .modal-dialog {
+        margin-top: 70px;
+    }
+}
+
+/** 考试界面 */
+.pin {
+    z-index: 999; /** 不要超过modal 1050，否则modal可能被覆盖 */
+}
+
+.pin.pin-border-bottom {
+    border-bottom: 2px solid #2dc3e8;
+}
+
+#question-panel {
+    overflow: auto;
+}
+
+.nav-btn {
+    font-size: 24px;
+}
+
+.btn-question-number {
+    width: 50px;
+    margin: 5px 5px 5px 0;
+}
+
+.btn-question-number.has-done {
+    background-color: #57b5e3;
+    border-color: #57b5e3;
+    color: #fff;
+}
+
+.btn-question-number.has-true {
+    background-color: #53a93f;
+    border-color: #53a93f;
+    color: #fff;
+}
+
+.btn-question-number.has-wrong {
+    background-color: #d73d32;
+    border-color: #d73d32;
+    color: #fff;
+}
+
+.unit-box {
+    width: 90%;
+    float: left;
+    height: 40px;
+    margin: 10px auto;
+    border: 1px solid #e0e0e0;
+    color: #aaa;
+    font-size: 20px;
+    text-align: center;
+}
+
+a.unit-box {
+    text-decoration: none;
+}
+
+a.unit-box:hover {
+    color: #fff;
+    background-color: #2dc3e8;
+}
+
+.unit-box .unit-number {
+    color: #000;
+    font-size: 24px;
+}
+
+
+.words-select-all {
+    margin-right: 30px;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+
+  padding: 0px;!important;
+
+}
+
+.red{
+    color: red;
+}
+.blue{
+    color: #00b3ee;
+}
+.yellow{
+    color: yellow;
+}
+.loginImg{
+    background-image: url("../images/sj006.jpg");
+}
+.login-header{
+    background-image: url("../images/sj003.jpg");
+}
